@@ -6,11 +6,11 @@ def test_weather_fetch():
 
     if w:
         print("Weather Retrieved. Verify the following on the website:")
-        print("Temperature: {}K".format(w['temp']))
-        print("Weather Status: {}".format(w['weather_description']))
-        print("Humidity: {}".format(w['humidity']))
-        print("Clouds: {}".format(w['clouds']))
+        print("Temperature: {}K".format(w["temp"]))
+        print("Weather Status: {}".format(w["weather_description"]))
+        print("Humidity: {}".format(w["humidity"]))
+        print("Clouds: {}".format(w["clouds"]))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     test_weather_fetch()
