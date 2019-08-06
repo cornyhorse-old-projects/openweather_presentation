@@ -35,7 +35,11 @@ def test_weather_fetch(owm):
         print("Clouds: {}".format(clouds))
 
 
-if __name__ == "__main__":
+def test_all():
     owm = test_connection()
     test_location_fetch(owm)
     test_weather_fetch(owm)
+
+
+if __name__ == "__main__":
+    test_all()

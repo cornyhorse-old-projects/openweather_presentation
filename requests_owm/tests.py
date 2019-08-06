@@ -12,5 +12,10 @@ def test_weather_fetch():
         print("Clouds: {}".format(w["clouds"]))
 
 
-if __name__ == "__main__":
+def test_all():
     test_weather_fetch()
+
+
+
+if __name__ == "__main__":
+    test_all()
