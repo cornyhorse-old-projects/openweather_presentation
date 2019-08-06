@@ -7,11 +7,3 @@ if __name__ == "__main__":
     print("Hello World!")
 
 
-    if True:
-        db_test.test_all()
-
-    if True:
-        pyowm_test.test_all()
-
-    if True:
-        request_test.test_all()
