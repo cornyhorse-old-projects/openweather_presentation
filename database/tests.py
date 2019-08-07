@@ -21,5 +21,6 @@ def test_all():
     test_database_exists()
     test_keepass_database_exists()
 
+
 if __name__ == "__main__":
     test_all()
