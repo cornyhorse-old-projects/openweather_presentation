@@ -2,7 +2,8 @@ import sqlite3
 import os
 import sqlalchemy
 from sqlalchemy.ext.declarative import declarative_base
-import database.models as m
+
+# import database.modedls as m
 Base = declarative_base()
 
 
@@ -19,7 +20,7 @@ def get_conn():
 
 def sqlalchemy_connect():
     # 1. Retrieve the Conneciton String, in the case of SQLite, this is just the file path.
-    conn_str = 'sqlite:///{}'.format(create_conn_string())
+    conn_str = "sqlite:///{}".format(create_conn_string())
 
     # 2. Create the Engine
     #    https://docs.sqlalchemy.org/en/13/core/engines.html
